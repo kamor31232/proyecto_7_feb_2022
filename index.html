@@ -5,12 +5,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Hoja de vida</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 
 <body>
+    <div class="image-profile">
+        <div class="center">
+            <img class="img" src="./profile.jpg" alt="">
+        </div>
 
-
+    </div>
+    <div class="professional-experence"></div>
 </body>
 
 </html>
+<style lang="css">
+    body {
+        font-family: 'Roboto', sans-serif;
+        display: flex;
+        flex-direction: row;
+        margin: 0 !important;
+    }
+
+    .image-profile {
+        width: 35%;
+        height: 100vw;
+        background: #1F222E;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .professional-experence {
+        width: 75%;
+        height: 100%;
+        background: #ddd;
+        height: 100vw;
+        border: rebeccapurple;
+    }
+
+    .img {
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+</style>
