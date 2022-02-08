@@ -17,20 +17,78 @@
             <img class="img" src="./profile.jpg" alt="">
         </div>
 
+        <div class="info">
+            <p class="infosec">Información personal</p>
+            <p class="tituloinfo">Nombre y Apellidos:</p>
+            <p class="infoinfo">Katerine Morcillo Ordoñez</p><br>
+            <p class="tituloinfo">Dirección:</p>
+            <p class="infoinfo">calle 12D # 13-02</p><br>
+            <p class="tituloinfo">email:</p>
+            <p class="infoinfo">abs12@gamil.com</p><br>
+            <p class="tituloinfo">Cel:</p>
+            <p class="infoinfo">321456789</p>
+        </div>
+
+        <div class="info">
+            <p class="infosec">Habilidades</p>
+            <p class="tituloinfo">Comprometida y responsable</p><br>
+            <p class="tituloinfo">Dedicación máxima, trabajo en equipo</p><br>
+            <p class="tituloinfo">Capacidad de organizaión y orientacion al detalle</p><br>
+            <p class="tituloinfo">Gestión del tiempo</p><br>
+            <p class="tituloinfo">Dominio del sofware y ofimatica</p><br>
+            <p class="tituloinfo">Capacidad numérica</p><br>
+            <p class="tituloinfo">Excelente comunicación oral y escrita</p>
+        </div>
+
+        <div class="info">
+            <p class="infosec">Idiomas</p>
+            <p class="tituloinfo">Español</p><br>
+            <p class="tituloinfo">Ingles C2</p><br>
+            <p class="tituloinfo">Aleman C1</p>
+        </div>
     </div>
-    <div class="professional-experence"></div>
+    <div class="info">
+        <p class="infoinfo">Katerine Morcillo Ordoñez</p><br>
+        <p class="infosec">Asistente Administrativa</p>
+        <p class="tituloinfo">Auxiliar administrativo con experiencia de dos años en empresas internacionales. Me
+            caracterizo por ser enérgico, hábil en el manejo de crisis y con facilidad de trato a los clientes. Cuento
+            con nivel intermedio de inglés y excelentes habilidades de redacción. Eficaz en el desempeño de tareas
+            administrativas y contabilidad.</p><br>
+        <p class="infosec">Formación</p>
+        <p class="tituloinfo">2008 – 2010 Madrid IE Business School, Administración de empresas</p><br>
+        <p class="infosec">Experiencia Profesional</p>
+        <p class="tituloinfo"> • 2019– 2021 Oficial de Operaciones Depto.Transferencias y Valores
+            Oficial a cargo de supervisar y aprobar transferencias internacionales vía Swift, transferencias locales
+            ACH, custodia y emisión de cheques de gerencia y giros, alquiler de cajillas de seguridad, emisión y
+            renovación de tarjetas clave, responsable de la disminución de costos en concepto de transferencias
+            internacionales enviadas, valores en custodia, evaluación de personal a cargo, diligencia relacionada a
+            documentos negociables vencidos, revisión de procedimientos del área, entre otras responsabilidades.</p><br>
+
+        <p class="tituloinfo"> • 2016 – 2018 Asistente Administrativa Rec. Humanos, Contabilidad y Admón.
+            Preparación de planilla, reclamos de seguro, pago de planilla a C.S.S., reclutamiento de personal, coordinar
+            eventos y seminarios, conciliaciones bancarias, preparación de reportes para la Superintendencia de Bancos,
+            responsable de la actualización de los procedimientos del área, etc.</p><br>
+
+        <p class="tituloinfo"> • 2011 – 2015 Asistente Administrativa de la Presidencia y Gerencia General
+            Coordinación de reuniones de Junta Directiva y Asambleas, pagos de dividendos, conciliaciones bancarias,
+            pagos de impuestos, control de valores en custodia, entre otras. The Bank of Korea, Ltd.</p><br>
+    </div>
+
+
+
 </body>
 
 </html>
 <style lang="css">
     body {
         font-family: 'Roboto', sans-serif;
-        display: flex;
         flex-direction: row;
         margin: 0 !important;
     }
 
+
     .image-profile {
+        float: left;
         width: 35%;
         height: 100vw;
         background: #1F222E;
@@ -40,11 +98,29 @@
     }
 
     .professional-experence {
+        float: inline-start;
         width: 75%;
         height: 100%;
         background: #ddd;
         height: 100vw;
-        border: rebeccapurple;
+
+    }
+
+    .name1 {
+        color: black;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: normal;
+        font-weight: bolder;
+        font-size: x-large;
+        margin margin-left: 10px;
+    }
+
+    .info1 {
+        color: #4F6D7A;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: normal;
+        font-size: x-large;
+
     }
 
     .img {
@@ -58,5 +134,38 @@
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .info {
+        width: 90%;
+        height: auto;
+        color: white;
+        padding: 10px;
+    }
+
+    .info .infosec {
+        color: #CA6702;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: medium;
+        text-align: center;
+        font-weight: bolder;
+        border-bottom: 1px gray solid;
+    }
+
+    .info .tituloinfo {
+        color: grey;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: bolder;
+        font-size: medium;
+        display: inline;
+        margin-right: 5px;
+    }
+
+    .info .infoinfo {
+        color: #CA6702;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: normal;
+        font-size: medium;
+        display: inline;
     }
 </style>
